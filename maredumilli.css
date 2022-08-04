@@ -1,0 +1,1318 @@
+@media screen and (min-width:200px) and (max-width:400px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#e0e0e0;
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .search_bar{
+        margin-left: 1%;
+        height: 85%;
+        width: 93%;
+        padding: 10px;
+        background-color:#330066;
+        color: white;
+        border-radius: 7px;
+    }
+    .search_bar:hover {
+        box-shadow: 2px 2px 10px #330066;
+    }
+    .searchbar_font{
+        display: block;
+        font-size: 6vw;
+    }
+    .search_font{
+        font-size: 11vw;
+    }
+    .destination{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 5vw;
+    }
+    .indate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:5vw;
+    }
+    .outdate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:5vw;
+    }
+    .numbers{
+        height: 9%;
+        width: 31.3%;
+        border-width:1px;
+        border-style:lighter;
+        font-size: 15px;
+        border-radius: 10px;
+        font-size: 5vw;
+    }
+    .submit_b{
+        margin-left: 32%;
+        height: 10%;
+        width:40%;
+        background-color:#0000ff;
+        color: white;
+        border: none;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .pc_style{
+        display: none;
+    }
+    .responsive_add{
+        display: none;
+    }
+    .maps{
+        display: none;
+    }
+    .mobile_style{
+        margin-top: 2%;
+        height: 35%;
+        width: 95%;
+        padding: 10px;
+        background-color:white;
+        border-radius: 7px;
+    }
+    .hotel_image{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    .hotel_name{
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 6vw;
+    }
+    .reviews_score{
+        font-size: 4.2vw;
+        margin-top: -3%;
+        color: blue;
+    }
+    #star_style{
+        margin-top: -3%;
+        font-size: 5vw;
+        padding: 3px;
+        color: orange;
+    }
+    .location{
+        margin-top: -1%;
+        font-size: 5vw;
+    }
+    .offer_style{
+        background-color: red;
+        color: white;
+        float: right;
+        font-size: 6vw;
+        margin-top: -2%;
+    }
+    .rupees_m{
+        margin-top: 3%;
+        display: inline;
+        float: right;
+        font-size: 7vw;
+        color: red;
+    }
+    .rupees_s{
+        float: right;
+        font-size: 4vw;
+        margin-top: 6%;
+        display: inline;
+    }
+}
+@media screen and (min-width:401px) and (max-width:500px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#e0e0e0;
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .search_bar{
+        height: 80%;
+        width: 93%;
+        margin-left: 1%;
+        padding: 10px;
+        background-color:#330066;
+        color: white;
+        border-radius: 7px;
+    }
+    .search_bar:hover {
+        box-shadow: 2px 2px 10px #330066;
+    }
+    .searchbar_font{
+        display: block;
+        font-size: 6vw;
+    }
+    .search_font{
+        font-size: 11vw;
+    }
+    .destination{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 4.5vw;
+    }
+    .indate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:4.5vw;
+    }
+    .outdate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:4.5vw;
+    }
+    .numbers{
+        height: 9%;
+        width: 31.3%;
+        border-width:1px;
+        border-style:lighter;
+        font-size: 15px;
+        border-radius: 10px;
+        font-size: 4.5vw;
+    }
+    .submit_b{
+        margin-left: 32%;
+        height: 10%;
+        width:40%;
+        background-color:#0000ff;
+        color: white;
+        border: none;
+        font-size:8vw;
+        border-radius: 10px;
+    }
+    .pc_style{
+        display: none;
+    }
+    .responsive_add{
+        display: none;
+    }
+    .maps{
+        display: none;
+    }
+    .mobile_style{
+        margin-top: 2%;
+        height: 34%;
+        width: 95%;
+        padding: 10px;
+        background-color:white;
+        border-radius: 7px;
+    }
+    .hotel_image{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    .hotel_name{
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 8vw;
+    }
+    .reviews_score{
+        font-size: 5vw;
+        margin-top: -3%;
+        color: blue;
+    }
+    #star_style{
+        margin-top: -3%;
+        font-size: 5vw;
+        padding: 5px;
+        color: orange;
+    }
+    .location{
+        margin-top: -2%;
+        font-size: 5vw;
+    }
+    .offer_style{
+        background-color: red;
+        color: white;
+        float: right;
+        font-size: 6vw;
+    }
+    .rupees_m{
+        margin-top: 3%;
+        display: inline;
+        float: right;
+        font-size: 7vw;
+        color: red;
+    }
+    .rupees_s{
+        float: right;
+        font-size: 5vw;
+        margin-top: 5%;
+        display: inline;
+    }
+}
+@media screen and (min-width:501px) and (max-width:600px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#e0e0e0;
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .search_bar{
+        margin: 0 auto;
+        height: 80%;
+        width: 80%;
+        padding: 10px;
+        background-color:#330066;
+        color: white;
+        border-radius: 7px;
+    }
+    .search_bar:hover {
+        box-shadow: 2px 2px 10px #330066;
+    }
+    .searchbar_font{
+        display: block;
+        font-size: 4vw;
+    }
+    .search_font{
+        font-size: 7vw;
+    }
+    .destination{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 4vw;
+    }
+    .indate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 4vw;
+    }
+    .outdate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:4vw;
+    }
+    .numbers{
+        height: 9%;
+        width: 31.3%;
+        border-width:1px;
+        border-style:lighter;
+        font-size: 15px;
+        border-radius: 10px;
+        font-size: 4vw;
+    }
+    .submit_b{
+        margin-left: 32%;
+        height: 10%;
+        width:40%;
+        background-color:#0000ff;
+        color: white;
+        border: none;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .pc_style{
+        display: none;
+    }
+    .responsive_add{
+        display: none;
+    }
+    .maps{
+        display: none;
+    }
+    .mobile_style{
+        margin-top: 2%;
+        height: 40%;
+        width: 101%;
+        padding: 10px;
+        background-color:white;
+        border-radius: 7px;
+    }
+    .hotel_image{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    .hotel_name{
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 6vw;
+    }
+    .reviews_score{
+        font-size: 4.2vw;
+        margin-top: -3%;
+        color: blue;
+    }
+    .location{
+        margin-top: -2%;
+        font-size: 5vw;
+    }
+    #star_style{
+        margin-top: -3%;
+        font-size: 4vw;
+        padding: 5px;
+        color: orange;
+    }
+    .offer_style{
+        font-size: 5vw;
+        background-color: red;
+        color: white;
+        float: right;
+        margin-top: -2%;
+    }
+    .rupees_m{
+        margin-top: 3%;
+        display: inline;
+        float: right;
+        font-size: 6vw;
+        color: red;
+    }
+    .rupees_s{
+        float: right;
+        font-size: 4vw;
+        margin-top: 5%;
+        display: inline;
+    }
+}
+@media screen and (min-width:601px) and (max-width:700px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#e0e0e0;
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .search_bar{
+        height: 60%;
+        width: 55%;
+        padding: 10px;
+        background-color:#330066;
+        color: white;
+        border-radius: 7px;
+    }
+    .search_bar:hover {
+        box-shadow: 2px 2px 10px #330066;
+    }
+    .destination{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 4vw;
+    }
+    .indate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 4vw;
+    }
+    .outdate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:4vw;
+    }
+    .numbers{
+        height: 9%;
+        width: 31.3%;
+        border-width:1px;
+        border-style:lighter;
+        font-size: 15px;
+        border-radius: 10px;
+        font-size: 4vw;
+    }
+    .submit_b{
+        margin-left: 32%;
+        height: 10%;
+        width:40%;
+        background-color:#0000ff;
+        color: white;
+        border: none;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .pc_style{
+        display: none;
+    }
+    .responsive_add{
+        display: none;
+    }
+    .maps{
+        display: none;
+    }
+    .mobile_style{
+        margin-top: 2%;
+        height: 38%;
+        width: 101%;
+        padding: 10px;
+        background-color:white;
+        border-radius: 7px;
+    }
+    .hotel_image{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    .hotel_name{
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 6vw;
+    }
+    .reviews_score{
+        font-size: 4.2vw;
+        margin-top: -3%;
+        color: blue;
+    }
+    .location{
+        margin-top: -1%;
+        font-size: 5vw;
+    }
+    #star_style{
+        margin-top: -2%;
+        font-size: 4vw;
+        padding: 5px;
+        color: orange;
+    }
+    .offer_style{
+        font-size: 3.5vw;
+        background-color: red;
+        color: white;
+        margin-left: 29%;
+    }
+    .rupees_m{
+        margin-top: 2%;
+        display: inline;
+        float: right;
+        font-size: 6vw;
+        color: red;
+    }
+    .rupees_s{
+        float: right;
+        font-size: 4vw;
+        margin-top: 4%;
+        display: inline;
+    }
+}
+@media screen and (min-width:701px) and (max-width:800px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#e0e0e0;
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .search_bar{
+        margin: 0 auto;
+        height: 60%;
+        width: 90%;
+        padding: 10px;
+        background-color:#330066;
+        color: white;
+        border-radius: 7px;
+    }
+    .search_bar:hover {
+        box-shadow: 2px 2px 10px #330066;
+    }
+    .searchbar_font{
+        display: block;
+        font-size: 5vw;
+    }
+    .search_font{
+        font-size: 7vw;
+    }
+    .destination{
+        display: block;
+        height: 10%;
+        width: 97%;
+        margin: 0 auto;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 5vw;
+    }
+    .indate{
+        display: block;
+        margin: 0 auto;
+        height: 10%;
+        width: 97%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 5vw;
+    }
+    .outdate{
+        margin: 0 auto;
+        display: block;
+        height: 10%;
+        width: 97%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:5vw;
+    }
+    .numbers{
+        margin-left: 2%;
+        height: 9%;
+        width: 30%;
+        border-width:1px;
+        border-style:lighter;
+        border-radius: 10px;
+        font-size: 5vw;
+    }
+    .submit_b{
+        margin-left: 32%;
+        height: 10%;
+        width:40%;
+        background-color:#0000ff;
+        color: white;
+        border: none;
+        font-size: 5vw;
+        border-radius: 10px;
+    }
+    .pc_style{
+        display: none;
+    }
+    .responsive_add{
+        display: none;
+    }
+    .maps{
+        display: none;
+    }
+    .mobile_style{
+        height: 32%;
+        width: 94%;
+        padding: 10px;
+        background-color:white;
+        border-radius: 7px;
+    }
+    .hotel_image{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    .hotel_name{
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 7vw;
+    }
+    .reviews_score{
+        font-size: 5vw;
+        color: blue;
+        margin-top: -2%;
+    }
+    .location{
+        margin-top: -4%;
+        font-size: 6vw;
+    }
+    #star_style{
+        font-size: 5vw;
+        padding: 5px;
+        color: orange;
+        margin-top: -3%;
+    }
+    .offer_style{
+        background-color: red;
+        color: white;
+        margin-left: 10%;
+        font-size: 40px;
+    }
+    .rupees_m{
+        margin-top: 2%;
+        display: inline;
+        float: right;
+        font-size: 7vw;
+        color: red;
+    }
+    .rupees_s{
+        float: right;
+        font-size: 5vw;
+        margin-top: 4%;
+        display: inline;
+    }
+}
+@media screen and (min-width:801px) and (max-width:900px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#e0e0e0;
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .search_bar{
+        height: 70%;
+        width: 85%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color:#330066;
+        color: white;
+        border-radius: 7px;
+    }
+    .search_bar:hover {
+        box-shadow: 2px 2px 10px #330066;
+    }
+    .searchbar_font{
+        display: block;
+        font-size: 5vw;
+    }
+    .search_font{
+        font-size: 7vw;
+    }
+    .destination{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 4.8vw;
+    }
+    .indate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 4.8vw;
+    }
+    .outdate{
+        height: 10%;
+        width: 100%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:4.8vw;
+    }
+    .numbers{
+        height: 9%;
+        width: 31.3%;
+        border-width:1px;
+        border-style:lighter;
+        border-radius: 10px;
+        font-size: 4.8vw;
+    }
+    .submit_b{
+        margin-left: 32%;
+        height: 10%;
+        width:40%;
+        background-color:#0000ff;
+        color: white;
+        border: none;
+        font-size: 4.5vw;
+        border-radius: 10px;
+    }
+    .pc_style{
+        display: none;
+    }
+    .responsive_add{
+        display: none;
+    }
+    .maps{
+        display: none;
+    }
+    .mobile_style{
+        margin-top: 2%;
+        height: 44%;
+        width: 101%;
+        padding: 10px;
+        background-color:white;
+        border-radius: 7px;
+    }
+    .hotel_image{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    .hotel_name{
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 7vw;
+    }
+    .reviews_score{
+        font-size: 4.2vw;
+        margin-top: -1%;
+        color: blue;
+    }
+    .location{
+        margin-top: -1%;
+        font-size: 6vw;
+    }
+    #star_style{
+        margin-top: -1%;
+        font-size: 5vw;
+        padding: 5px;
+        color: orange;
+    }
+    .offer_style{
+        font-size: 6vw;
+        background-color: red;
+        color: white;
+        margin-left: 10%;
+    }
+    .rupees_m{
+        margin-top: 2%;
+        display: inline;
+        float: right;
+        font-size: 8vw;
+        color: red;
+    }
+    .rupees_s{
+        float: right;
+        font-size: 6vw;
+        margin-top: 4%;
+        display: inline;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1000px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#e0e0e0;
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .search_bar{
+        height: 64%;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color:#330066;
+        color: white;
+        border-radius: 7px;
+    }
+    .search_bar:hover {
+        box-shadow: 2px 2px 10px #330066;
+    }
+    .searchbar_font{
+        display: block;
+        margin-left: 2%;
+        font-size: 4.5vw;
+    }
+    .search_font{
+        margin-top: -2%;
+        font-size: 7vw;
+    }
+    .destination{
+        height: 10%;
+        width: 95%;
+        display: block;
+        border-radius: 10px;
+        border-width:1px;
+        margin: 0 auto;
+        border-style:lighter;
+        outline: none;
+        font-size: 4vw;
+    }
+    .indate{
+        height: 10%;
+        width: 95%;
+        display: block;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        margin: 0 auto;
+        font-size: 4vw;
+    }
+    .outdate{
+        height: 10%;
+        width: 95%;
+        border-radius: 10px;
+        display: block;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        margin: 0 auto;
+        font-size:4vw;
+    }
+    .numbers{
+        margin-left: 2.5%;
+        height: 9%;
+        width: 29.5%;
+        border-width:1px;
+        border-style:lighter;
+        font-size: 15px;
+        border-radius: 10px;
+        font-size: 4vw;
+    }
+    .submit_b{
+        margin-left: 32%;
+        height: 10%;
+        width:40%;
+        background-color:#0000ff;
+        color: white;
+        border: none;
+        font-size: 5vw;
+        border-radius: 10px;
+    }
+    .pc_style{
+        display: none;
+    }
+    .responsive_add{
+        display: none;
+    }
+    .maps{
+        display: none;
+    }
+    .mobile_style{
+        margin: 0 auto;
+        height: 36%;
+        width: 96%;
+        padding: 10px;
+        background-color:white;
+        border-radius: 7px;
+    }
+    .hotel_image{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    .hotel_name{
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 6vw;
+    }
+    .reviews_score{
+        font-size: 4.2vw;
+        margin-top: -1%;
+        color: blue;
+    }
+    .location{
+        margin-top: -1%;
+        font-size: 5vw;
+    }
+    #star_style{
+        margin-top: -1%;
+        font-size: 4vw;
+        padding: 5px;
+        color: orange;
+    }
+    .offer_style{
+        font-size: 5vw;
+        background-color: red;
+        color: white;
+        margin-left: 18%;
+    }
+    .rupees_m{
+        margin-top: 2%;
+        display: inline;
+        float: right;
+        font-size: 6vw;
+        color: red;
+    }
+    .rupees_s{
+        float: right;
+        font-size: 4vw;
+        margin-top: 4%;
+        display: inline;
+    }
+}
+@media screen and (min-width:1000px) and (max-height:2400px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#e0e0e0;
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .search_bar{
+        margin: 0 auto;
+        display: block;
+        height: 65%;
+        width: 90%;
+        padding: 10px;
+        background-color:#330066;
+        color: white;
+        border-radius: 7px;
+        display: none;
+    }
+    .search_bar:hover {
+        box-shadow: 2px 2px 10px #330066;
+    }
+    .searchbar_font{
+        display: block;
+        font-size: 6vw;
+    }
+    .search_font{
+        font-size: 7vw;
+    }
+    .destination{
+        display: block;
+        height: 10%;
+        width: 97%;
+        margin: 0 auto;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 5vw;
+    }
+    .indate{
+        display: block;
+        margin: 0 auto;
+        height: 10%;
+        width: 97%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size: 5vw;
+    }
+    .outdate{
+        margin: 0 auto;
+        display: block;
+        height: 10%;
+        width: 97%;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:lighter;
+        outline: none;
+        font-size:5vw;
+    }
+    .numbers{
+        margin-left: 2%;
+        height: 9%;
+        width: 30%;
+        border-width:1px;
+        border-style:lighter;
+        border-radius: 10px;
+        font-size: 5vw;
+    }
+    .submit_b{
+        margin-left: 32%;
+        height: 10%;
+        width:40%;
+        background-color:#0000ff;
+        color: white;
+        border: none;
+        font-size: 5vw;
+        border-radius: 10px;
+    }
+    .pc_style{
+        display: none;
+    }
+    .responsive_add{
+        display: none;
+    }
+    .maps{
+        display: none;
+    }
+    .mobile_style{
+        height: 33%;
+        width:94%;
+        margin-left: 2.2%;
+        padding: 10px;
+        background-color:white;
+        border-radius: 7px;
+    }
+    .hotel_image{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    .hotel_name{
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 6vw;
+    }
+    .reviews_score{
+        font-size: 4vw;
+        color: blue;
+        margin-top: -2%;
+    }
+    .location{
+        margin-top: -1%;
+        font-size: 5vw;
+    }
+    #star_style{
+        font-size: 5vw;
+        padding: 5px;
+        color: orange;
+    }
+    .offer_style{
+        font-size: 5vw;
+        background-color: red;
+        color: white;
+        margin-left: 16%;
+    }
+    .rupees_m{
+        margin-top: 2%;
+        display: inline;
+        float: right;
+        font-size: 7vw;
+        color: red;
+    }
+    .rupees_s{
+        float: right;
+        font-size: 5vw;
+        margin-top: 4%;
+        display: inline;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1500px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin-top: 0.0em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .header_style{
+        background-color:white;
+        position: fixed;
+        width: 100%;
+        box-shadow: 2px 2px 10px black;
+    }
+    .search_bar{
+        position: absolute;
+        border:1px solid black;
+        display: inline;
+        width: 20%;
+        height:auto;
+        margin-top: 10%;
+        margin-left: 3%;
+        background-color: #330066;
+        color: white;
+        padding: 10px;
+    }
+    .search_font{
+        display: block;
+        font-size:1.8vw;
+    }
+    .searchbar_font{
+        display: block;
+        font-size: 1.3vw;
+    }
+    .destination{
+        margin: 0 auto;
+        width: 98%;
+        height: 30px;
+        outline: none;
+    }
+    .indate{
+        margin: 0 auto;
+        width: 98%;
+        height: 30px;
+        outline: none;
+    }
+    .outdate{
+        margin: 0 auto;
+        width: 98%;
+        height: 30px;
+        outline: none;
+    }
+    .numbers{
+        margin: 0 auto;
+        width: 31.5%;
+        height: 30px;
+        outline: none;
+    }
+    .submit_b{
+        background-color:white;
+        color: black;
+        font-size: 1.3vw;
+        display: block;
+        margin: 0 auto;
+        height: 40px;
+        width: 40%;
+        border-radius: 5px;
+        border:none;
+    }
+    .maps iframe{
+        position: absolute;
+        margin-top: 40.4%;
+        margin-left: 3%;
+        height: 40%;
+    }
+    .pc_style{
+        display: inline;
+        position: absolute;
+        margin-left: 26%;
+        background-color: white;
+        box-shadow: 2px 2px 5px gray;
+        width: 58%;
+        height: auto;
+    }
+    .pc_style:hover {
+        box-shadow: 7px 7px 15px gray;
+    }
+    .mobile_style{
+        display: inline;
+        position: absolute;
+        margin-left: 29%;
+        margin-top: 15%;
+        background-color: white;
+        box-shadow: 10px 10px 10px silver;
+        border-radius: 5px;
+        width: 55%;
+        height: auto;
+        display: none;
+    }
+    .vertical_line{
+        position: absolute;
+        display: inline;
+        margin-top: -20.5%;
+        margin-left: 21%;
+        border-left: 1px solid silver;
+        height: 200px;
+    }
+    .rating{
+        position: absolute;
+        margin-left: 45%;
+        margin-top: -20%;
+        font-size: 2vw;
+        background-color: #3333ff;
+        color: white;
+        border-top-right-radius: 6px;
+    }
+    .verygood{
+        position: absolute;
+        margin-left: 32.5%;
+        margin-top: -19%;
+        font-size: 1.6vw;
+    }
+    .left_rooms{
+        position: absolute;
+        margin-left: 33%;
+        margin-top: -14.5%;
+        background-color: #ff9999;
+        padding: 1%;
+        font-size: 1vw;
+    }
+    .hotel_image{
+        float: left;
+    }
+    .hotel_name{
+        font-size: 2vw;
+        padding-left: 10px;
+    }
+    #star_style{
+        color: orange;
+        padding-left: 10px;
+        margin-top: -2%;
+    }
+    .reviews_score{
+        display: inline;
+        padding-left: 10px;
+        color:blue;
+    }
+    .location{
+        font-size: 1.3vw;
+    }
+    .offer_style{
+        float: right;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        font-size: 1.6vw;
+        margin-top: -2%;
+    }
+    .rupees_m{
+        display: inline;
+        float: right;
+        font-size: 1.8vw;
+        margin-top: -1%;
+        color: red;
+    }
+    .rupees_s{
+        display:inline;
+        float: right;
+        margin-top:-0.1%;
+    }
+    .reserve{
+        margin-left: 2%;
+        margin-top: -2%;
+        height: 40px;
+        width: 20%;
+        background-color: #0000ff;
+        color: white;
+        border:none;
+        box-shadow: 1px 1px 1px #0000ff;
+    }
+    .reserve:hover{
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    .free_wifi{
+        position: absolute;
+        margin-left: 35%;
+        margin-top: -10%;
+        padding: 1%;
+        width: 15%;
+    }
+    .responsive_add{
+        position: fixed;
+        display: inline;
+        margin-top: 5%;
+        margin-left:84.5%;
+    }
+
+}

@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+    .container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    }
+
+    .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    }
+
+    svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+    }
+
+    .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+    }
+
+    .btn:hover svg {
+    stroke-dashoffset: -480;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="center">
+          <button class="btn">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>REGISTER</span>
+          </button>
+        </div>
+    </div>
+    <div class="container" style="margin-left: 86%;">
+        <div class="center">
+          <button class="btn">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>SIGN IN</span>
+          </button>
+        </div>
+    </div>
+</body>
+</html>
